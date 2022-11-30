@@ -9,8 +9,8 @@ for (let index = 0; index < letters.length; index++) {
     const element = letters[index];
     newArray.push(element + '++');
 }
-console.log('nuevo', newArray);
+console.log('for', newArray);
 
 // Con map
 const newArray2 = letters.map(item => item + '++');
-console.log('nuevo2', newArray2);
+console.log('map', newArray2);

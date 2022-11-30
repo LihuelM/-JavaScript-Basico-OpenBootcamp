@@ -8,8 +8,8 @@ for (let index = 0; index < totals.length; index++) {
     const element = totals[index];
     sum = sum + element;
 }
-console.log(sum);
+console.log('for',sum);
 
 // Con reduce
 const rta = totals.reduce((sum, element) => sum + element, 0);
-console.log('rta', rta);
+console.log('reduce', rta);
