@@ -11,11 +11,11 @@ for (let index = 0; index < numbers.length; index++) {
         break;
     }
 }
-console.log('rta', rta);
+console.log('for', rta);
 
 // Con some
 const rta2 = numbers.some(item => item % 2 === 0);
-console.log('rta2',rta2);
+console.log('some',rta2);
 
 
 const orders = [
