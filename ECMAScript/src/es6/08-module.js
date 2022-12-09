@@ -6,7 +6,7 @@
 
 // Además, si iniciaste un proyecto con NPM (Node Package Manager) con Node.js, necesitas especificar que el código es modular en el archivo package.json 
 
-import { add, otherFunction } from './module.js'
+import { add } from './module.js'
 
 add(2,2) //4
 
