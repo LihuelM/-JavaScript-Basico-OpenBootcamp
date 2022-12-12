@@ -2,7 +2,7 @@
 
 const promesa = () => {
     return new Promise((resolve, reject) => {
-        if (something) {
+        if (true) {
         //true o false
         resolve("Se ha resuelto la promesa")
         } else {
